@@ -1,3 +1,10 @@
+class StringCalculator
+  def add(str)
+    0
+  end
+end
+
+
 RSpec.describe StringCalculator do
    it 'calling add method with empty string' do
     string = StringCalculator.new
